@@ -1,6 +1,6 @@
 # Accelerating the Characterization of Dynamic DNA Origami Devices with Deep Neural Networks
 
-In this repo, we designed a dynamic dNA origami device characterization framework based on computer vision and deep neural networks (DNNs). 
+In this repo, we designed a dynamic DNA origami device characterization framework based on computer vision and deep neural networks (DNNs). 
 
 <p align="center"><img src="images/workflow.png" alt="workflow" width="800"></p>
 
@@ -22,7 +22,7 @@ For more details, please refer to our [paper](https://www.biorxiv.org/content/10
 
 ## 1. Dataset
 
-We release our dataset, including micrograph images and annotations,[HERE](https://osf.io/bmxhf/).
+We release our dataset, including micrograph images and annotations, [HERE](https://osf.io/bmxhf/).
 
 ## 2. Particle Detection:
 
