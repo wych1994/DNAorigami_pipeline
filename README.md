@@ -1,7 +1,7 @@
-# DNAorigami_pipeline
+# DNAorigami Pipeline
 The raw micrograph and annotation in the paper can be found HERE
 
-# Particle Detection:
+## Particle Detection:
 
 Generally, a small set of images need to be firstly trained to accomendatate the specific scenario, e.g., different DNA origami strucutures or any other objects. Usually it takes approximate 10 images or ~400 particles, but the performance shoud be better for larger training sets in principle. Once the training process is done (with decent validation performance),the generatated network (i.e. model) can be used to predict the particle location.
 To do this, we will go for 3 steps:
@@ -57,7 +57,7 @@ The output of prediction will be the same format as annotation with additional c
 
 
 
-# Pose estimation:
+## Pose estimation:
 This workflow is similar to Particle Detection with 3 steps, i.e., prepare dataset, train, and predict. 
 
 
