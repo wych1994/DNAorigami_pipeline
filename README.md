@@ -10,7 +10,7 @@ To do this, we will go for 3 steps:
 2. Training with YOLOv5
 3. Predict based on trained model
 
-1. Dataset Preparation:
+### 1. Dataset Preparation:
 In annotation, the format of bounding box location is as follows:
 
 **************************
@@ -21,7 +21,7 @@ where the class represents the index of object. For homogenous structure the cla
 The annotation utility we used here is Roboflow with further box size rectification. Other 
 tools such as CVAT, or MATLAB ROI will also work.
 
-2. Training with YOLOv5: For detailed guidance refer to https://github.com/ultralytics/yolov5
+### 2. Training with YOLOv5: For detailed guidance refer to https://github.com/ultralytics/yolov5
 
 
 Example of dataset location input in *.yaml format
@@ -45,7 +45,7 @@ Typically training process can be done by running train.py script with argument 
 ********************************
 
 
-3. Predict based on trained model
+### 3. Predict based on trained model
 The test dataset is in the same folder as trained set without annotation.
 Typically inference process can be done by running detect.py script with argument in Python terminal. For example:
 
