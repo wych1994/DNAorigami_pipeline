@@ -130,7 +130,7 @@ Example of configeration file format:
 
 The output is predicted location of critical point with confidence score. To visualize the results, one can refer to 'Visualize_hinge_NUChinge.m'.
 
-Additionally, you can also transfer the prediction result into ROI format that can be read by ImageJ. Example roiset can be found in 'ImageJ_example' folder.
+Additionally, you can also transfer the prediction result into ROI format that can be read by ImageJ. Here we employed python ROI decoder 'roifile'. Example roiset and customized Python script can be found in 'ImageJ_example' folder.
 
 
 
