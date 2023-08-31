@@ -11,15 +11,14 @@ In the framework (as shown in the above figure (subfigure-B)), YOLOv5 and Resnet
 For more details, please refer to our [paper](https://www.biorxiv.org/content/10.1101/2023.05.11.540408v1.abstract).
 
 ## Table of Contents
-- [Accelerating the Characterization of Dynamic DNA Origami Devices with Deep Neural Networks](#accelerating-the-characterization-of-dynamic-dna-origami-devices-with-deep-neural-networks)
-  - [Table of Contents](#table-of-contents)
-  - [1. Dataset](#1-dataset)
-  - [2. Particle Detection:](#2-particle-detection)
-    - [2.1. Dataset Preparation:](#21-dataset-preparation)
-    - [2.2. Training with YOLOv5](#22-training-with-yolov5)
-    - [2.3. Predict based on trained model](#23-predict-based-on-trained-model)
-  - [3. Pose estimation:](#3-pose-estimation)
-  - [4. Citation](#4-citation)
+- [Table of Contents](#table-of-contents)
+- [1. Dataset](#1-dataset)
+- [2. Particle Detection:](#2-particle-detection)
+  - [2.1. Dataset Preparation:](#21-dataset-preparation)
+  - [2.2. Training with YOLOv5](#22-training-with-yolov5)
+  - [2.3. Predict based on trained model](#23-predict-based-on-trained-model)
+- [3. Pose estimation:](#3-pose-estimation)
+- [4. Citation](#4-citation)
 
 ## 1. Dataset
 
