@@ -4,7 +4,7 @@ In this repo, we designed a dynamic DNA origami device characterization framewor
 
 <p align="center"><img src="images/workflow.png" alt="workflow" width="800"></p>
 
-In the framework (as shown in the above figure (subfigure-B)), YOLOv5 and Resnet50 network architectures were used for the two key subtasks: particle detection and pose (i.e. conformation) estimation.
+In the framework (as shown in the above figure (subfigure-B)), YOLOv5 and Resnet50 network architectures were used for the two key subtasks: particle detection (subfigure-C) and pose (i.e. conformation) estimation (subfigure-D).
 
 **Bacground and Motivations**: Mechanical characterization of dynamic DNA nanodevices is essential to facilitate their use in applications like molecular diagnostics, force sensing, and nanorobotics that rely on device reconfiguration and interactions with other materials. A common approach to evaluate the mechanical properties of dynamic DNA nanodevices is by quantifying conformational distributions, where the magnitude of fluctuations correlates to the stiffness. This is generally carried out through manual measurement from experimental images, which is a tedious process and a critical bottleneck in the characterization pipeline. While many tools to support analysis of static of molecular structures, there is a need for tools to facilitate the rapid characterization of dynamic DNA devices that undergo large conformational fluctuations.
 
